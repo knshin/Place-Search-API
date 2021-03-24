@@ -3,6 +3,7 @@ Place search API practice
 
 <회원가입>
 curl -d@create-user.json -H "Content-Type: application/json" -X POST http://localhost:8080/account/v1/user
+
 [create-user.json]
 {
 	"name":"honggildong",
@@ -11,6 +12,7 @@ curl -d@create-user.json -H "Content-Type: application/json" -X POST http://loca
 
 <로그인>
 curl -d@login-user.json -H "Content-Type: application/json" -X POST http://localhost:8080/account/v1/login
+
 [login-user.json]
 {
 	"name":"honggildong",
